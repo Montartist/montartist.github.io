@@ -1,0 +1,89 @@
+
+#bigtitle{
+    
+    color: #f2f9ff;
+    padding: 20px;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.toolbar{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #293446;
+}
+
+nav.tb{
+    display: flex;
+    list-style: none;
+    color: #f2f9ff;
+    text-align: right;
+    width: 600px;
+    padding: 20px;
+    margin-left: 700px;
+    justify-content: space-between;
+}
+
+
+body{
+    background-color: #bfc6cd;
+    font-family: Arial;
+}
+.Titre{
+    color: #293446;
+    text-align: center;
+    padding: 20px;
+}
+
+p{
+    color: #293446;
+    text-align: center;
+    font-size: larger;
+}
+
+ul{
+    color: #293446;
+    margin-left: 500px;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 800px;
+    list-style: none;
+    padding: 20px;
+}
+
+.listearg{
+    border: solid;
+    border-radius: 10px;
+    border-color: #293446;
+    padding: 10px;
+    background-color: #6a7b95;
+    color: #f2f9ff;
+    font-weight: bold;
+}
+#communauté{
+    margin-left: 90px;
+}
+
+button{
+    border: none;
+    padding: 15px;
+    background: none;
+    color: #f2f9ff;
+    font-size: large;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+button:hover{
+    background-color: #1b2431;
+}
+button:active{
+    transform: scale(0.97);
+}
+
+#logo{
+    margin-left: 10px;
+    padding: 10px;
+}
+
